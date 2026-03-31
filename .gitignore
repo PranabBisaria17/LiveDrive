@@ -1,0 +1,7 @@
+*.pth
+__pycache__/
+CAM_BACK_LEFT/
+CAM_FRONT/
+maps/
+masks/
+LiveDrive/

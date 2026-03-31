@@ -32,8 +32,7 @@ The model predicts a segmentation mask highlighting drivable road regions.
 📊 Dataset Used
 
 Dataset used for training:
-
-BDD100K Dataset (Berkeley DeepDrive)
+The model is trained using the BDD100K (Berkeley DeepDrive) dataset, which is a large-scale dataset designed for autonomous driving research. It contains diverse driving scenes captured in urban roads, highways, and different environmental conditions such as daytime, nighttime, and varying weather scenarios. The dataset provides pixel-level annotations that enable supervised training for semantic segmentation tasks, making it highly suitable for detecting drivable road regions accurately.
 
 Dataset features:
 

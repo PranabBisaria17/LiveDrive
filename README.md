@@ -58,10 +58,13 @@ Setup and Installation Instructions
 
 To run this project locally, first clone the repository from GitHub to your system and navigate to the project directory. After cloning, install the required dependencies including PyTorch, torchvision, OpenCV, NumPy, and Matplotlib using pip. If GPU acceleration is required, install the CUDA-compatible version of PyTorch from the official PyTorch website. Once dependencies are installed successfully, the environment will be ready for running segmentation inference on road scene images. ⚙️
 
-How to Run the Code
+How to Run the Code:
 
-After completing installation, execute the prediction script from the project directory using the command python predict.py. If you want to test the model on a custom image, provide the image path as an argument while running the script. The program processes the input image and generates a segmentation mask highlighting drivable areas, which is automatically saved in the output folder for visualization and evaluation.
+to run the code store any image in folder and go to infer.py file and in terminal run python infer,py to run the file it will give output as overlay which gives the result image 
 
 Example Outputs / Results
+https://drive.google.com/file/d/1V8wJJuxh0Ofr8u4QRE0B6czf50EkDeZJ/view?usp=drive_link  --> result of image inserted
+https://drive.google.com/file/d/1pIfKntizQcMypseCyAy_o8Mqbyxq-wtl/view?usp=drive_link -->mask of image
+https://drive.google.com/file/d/1TjPmOBFrs2SzT0L991Yr14lUvOzY5ClO/view?usp=drive_link  --> inserted image for test
 
 The model produces segmentation outputs in the form of binary masks that clearly highlight drivable road regions from the original input image. These results demonstrate the system’s capability to distinguish safe navigation areas from obstacles and non-drivable surfaces. Example input and output images can be added to the repository README file to visually present the effectiveness of the segmentation model and improve clarity for evaluators reviewing the project. 📊
